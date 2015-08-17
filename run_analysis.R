@@ -25,7 +25,7 @@ run_analysis<-function(){
   meanandstddat<-totaldat[,sort(c(1,2,3,grep("mean\\(\\)",colnames(totaldat)),grep("std\\(\\)",colnames(totaldat))))]
   
   #getting the mean values for all the data with respect to each subject and activity
-  datagg<-aggregate(meanandstddat[,4:ncol(meanandstddat)], by = list(subject = meanandstddat$SubjectID, activity = meanandstddat$Activity),mean)
+  datagg<-aggregate(meanandstddat[,4:ncol(meanandstddat)], by = list(Subject = meanandstddat$SubjectID, Activity = meanandstddat$Activity),mean)
   
   #writing that data to .txt file for submission
   write.table(format(datagg, scientific = TRUE), "tidydata.txt",row.names = FALSE, col.names = TRUE)
