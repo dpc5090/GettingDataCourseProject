@@ -1,6 +1,8 @@
 Course Project for Getting and Cleaning Data
 ============================================
 
+run_analyais.R
+--------------
 the run_analysis.R file performs the following functions:
 
 1) Merges test and training sets in a single data set
@@ -18,3 +20,7 @@ codebook
 --------
 the codebook describes the varibles that are written into the .txt file
 
+
+UCI HAR Dataset
+---------------
+contains all the raw data used in this project
