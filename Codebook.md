@@ -2,12 +2,12 @@
 
 Codebook for tidydata.txt
 =========================
-*Subject(numeric)
-	* 1:30 Subject ID
-*Activity(character)
-	*"WALKING","WALKING_UPSTAIRS","WALKING_DOWNsTAIRS","SITTING",sTANDING","LAYING"  Shows the activty the subject was doing at the time of measuerment
-*All others are averages of the feature with respect to Subject and Activity.
-	*Features are described below.
+* Subject(numeric)
+	*  1:30 Subject ID
+* Activity(character)
+	*" WALKING","WALKING_UPSTAIRS","WALKING_DOWNsTAIRS","SITTING",sTANDING","LAYING"  Shows the activty the subject was doing at the time of measuerment
+* All others are averages of the feature with respect to Subject and Activity.
+	* Features are described below.
 
 
 
